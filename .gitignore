@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# Xcode — per-user state, never share these
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+
+# Xcode build output
+build/
+DerivedData/
+*.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Packages/
+Package.resolved
+
+# CocoaPods / Carthage (unused here, kept for safety)
+Pods/
+Carthage/Build/
+
+# Signing material — must never be committed
+*.mobileprovision
+*.p12
+*.cer
+*.certSigningRequest
